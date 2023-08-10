@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worklist</title>
+	 <link rel="stylesheet" href="worklist.css">
+</head>
+<body>
+    <center><h1>Worklist</h1></center>
+    <input type="text" id="taskInput" placeholder="Unesite novi zadatak">
+    <input type="date" id="deadlineInput">
+    <button onclick="addTask()">Dodaj zadatak</button>
+    <ul id="taskList"></ul>
+    <h2 style="text-align: center;">Materijali</h2>
+    <ul id="materialsList"></ul>
+    <h2 style="text-align: center;">Ukupna cijena svih zadataka: <span id="totalTasksPrice">0</span></h2>
+
+    <script src="worklist.js"></script>
+</body>
+</html>
