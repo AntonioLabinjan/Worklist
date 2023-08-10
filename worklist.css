@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#taskForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+    background-color: #e6f7ff;
+}
+
+
+.task-item input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.task-item button {
+    margin-left: 10px;
+}
+
+#materialsList {
+    list-style: none;
+    padding: 0;
+}
+
+#totalTasksPrice {
+    color: #f00;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+    margin: 10px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+button:hover {
+    background-color: #f3f3f3;
+}
+li {
+    background-color: #e6f7ff;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
